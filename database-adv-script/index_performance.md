@@ -22,3 +22,7 @@ This report outlines the creation of indexes on key columns in the User, Booking
 ### Sample Query (Before Index)
 ```sql
 EXPLAIN SELECT * FROM Booking WHERE user_id = 'abc-123';
+XPLAIN SELECT * FROM Booking WHERE user_id = 'abc-123';
+Estimated cost: 30.00
+
+Rows scanned: ~10 (indexed lookup)
