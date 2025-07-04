@@ -27,3 +27,15 @@ This file contains two subquery examples used in the Airbnb Clone project.
 2. **Correlated Subquery**
    - Retrieves users who have made more than 3 bookings.
    - Uses a subquery inside the `WHERE` clause that depends on the outer query.
+# SQL Aggregations and Window Functions - Airbnb Database
+
+This file demonstrates the use of SQL aggregation and window functions in the Airbnb Clone project.
+
+## Queries
+
+1. **Aggregation with COUNT and GROUP BY**
+   - Lists the total number of bookings made by each user.
+
+2. **Window Function with RANK**
+   - Ranks properties based on the number of bookings received.
+   - Uses the `RANK()` window function over a `COUNT()` aggregation.
